@@ -31,7 +31,29 @@
                  Object类的使用：Object类在java.lang包下，是所有类的根。任何类的对象，都可以调用Object类中的方法，包括数组对象。
       *@Deprecated:该注解标注的内容，表示已过时
       *@SuppressWarnings:压制警告
-
+ *自定义注解：
+    *注解本质：本质上是一个接口，该接口默认继承java.long。annotation包下的Annotation接口类，
+           格式：
+                上：元注解（jdk定义好的）
+                        *@Target:描述注解能够作用的位置
+                                    *ElementType取值:
+                                        *Type:可以作用于类上
+                                        *METHOD:可以作用于方法上
+                                        *FIELD:可以作用于成员变量上
+                        *@Retention:描述注解注解能被保留的阶段（resource,class,runtime）
+                                    *@Retention(RetentionPolicy.RESOURCE):当前被描述的注解，不会保留到class字节码文件中去，不会被JVM读取到
+                                    *@Retention(RetentionPolicy.CLASS):当前被描述的注解，会保留到class字节码文件中去，不会被JVM读取到
+                                    *@Retention(RetentionPolicy.RUNTIME):当前被描述的注解，会保留到class字节码文件中去，并被JVM读取到
+                        *@Documented:描述注解是否被抽取到api文档中
+                        *@Inherited:描述注解是否被子类继承
+                下：public @interface Anno{}
+       属性：接口中的抽象方法
+                *基本数据类型
+                *String
+                *枚举
+                *注解
+                *以上类型的数组
+                
 
 
 
