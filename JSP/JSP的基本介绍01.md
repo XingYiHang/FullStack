@@ -8,10 +8,10 @@
       "<%-- --%>"内容不会再客户端显示。
 #### JSP页面中常用的标记
 
-   * "<FORM method=get/post action="提交信息的目的地页面"name="表单的名字">"
-     1）<FORM>是表单标记，
-     2）method取值get或post。其中get方法与post方法的区别是：get方法提交的信息会在提交过程中显示在浏览器的地址栏中，而post方法提交的信息不会显示地址栏         中；post传输数据的大小理论上没有限制（但服务器断会有限制），而get通过URL参数传递数据，受URL的长度的限制通常不超过1KB;post比get的请求方式更安        全
-     3）内容中常用的标签有<Input...>,<Select...>,<Option...>;
+   * "<FORM method=get/post action="提交信息的目的地页面"name="表单的名字">"     
+     1）<FORM>是表单标记。
+     2）method取值get或post。其中get方法与post方法的区别是：get方法提交的信息会在提交过程中显示在浏览器的地址栏中，而post方法提交的信息不会显示地址栏         中；post传输数据的大小理论上没有限制（但服务器断会有限制），而get通过URL参数传递数据，受URL的长度的限制通常不超过1KB;post比get的请求方式更安        全。
+     3）内容中常用的标签有<Input...>,<Select...>,<Option...>。
  
     * "<Input type="输入对象的GUI类型" name="名字">"
      1）input标记用来指定表单的输入方式和表单的提交建，其中type属性可以指定输入方式的GUI对象，name属性用来指定这个GUI对象的名称。
