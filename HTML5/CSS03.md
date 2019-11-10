@@ -5,7 +5,7 @@
 <!DOCTYPE HTML>
 <html>
       <head>
-            <meta charest="">
+            <meta charset="UTF-8">
             <title>标题</title>
             <!-- -->
             <style type="text/css">
