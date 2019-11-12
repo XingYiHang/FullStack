@@ -1,13 +1,13 @@
-## java代码的三个阶段：
-   1.source(源代码阶段)：
+## Java文件加载的三个阶段：
+    *1.source(源代码阶段)：
        *.java文件->javac编译->.class文件（在硬盘，没有加载进内存）
-   2.Class（类对象阶段）
+    *2.Class（类对象阶段）:
        *将字节码文件加载进内存：.claass文件->ClassLoader(类加载器)->Class类对象
          *Class类对象：
           成员变量：Filed[]
           构造方法：Constructor[]
           成员方法：Method[]
-   3.runtime(运行时阶段)：
+    *3.runtime(运行时阶段)：
           *通过new生成对象，调用方法。
 ## 反射:框架设计的灵魂
       *将类的各个组成部分封装为其他对象，这就是反射机制。
