@@ -1,7 +1,7 @@
- 一、关于Object类
-     1).Object类是所有类的父类，位于java.lang包中。
-     2).数组也是Object类的子类。
-     3).Object类的常用方法有：
+ ### 一、关于Object类
+      1).Object类是所有类的父类，位于java.lang包中。
+      2).数组也是Object类的子类。
+      3).Object类的常用方法有：
                toString()：
                     *将任何一个对象转换成字符串返回，System.out.println()会调用toString()方法，打印对象。
                     *在类中如果不重写toString()方法， 结果会打印一个对象的哈希码值，地址的字符串，十六进制
